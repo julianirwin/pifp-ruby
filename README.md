@@ -1,2 +1,2 @@
 # pifp-ruby
-Tranlation of 'A Practical Introduction to Functional Programming' (maryrosecook.com) from Python into Ruby
+Translation of ['A Practical Introduction to Functional Programming'](http://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming) from Python into Ruby
