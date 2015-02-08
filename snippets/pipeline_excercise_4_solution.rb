@@ -18,7 +18,8 @@ end
 capitalize_names = method :capitalize_names
 
 def pipeline_each(bands, funcs)
-  bands.map {|band| funcs.inject(band) {|b, f| b = f[b]}}
+  # bands.map {|band| funcs.inject(band) {|b, f| b = f[b]}}
+  funcs.reduce(bands) {|b, f| b.map { |x| f[x] }}
 end
 
 # Much more descriptive than format_bands(bands)

@@ -1,5 +1,4 @@
 names = ['Mary', 'Isla', 'Sam']
-
 names = names.map {|name| name.hash}
 
 p names
